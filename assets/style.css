@@ -1,0 +1,186 @@
+.WebContaier {
+    width:100%;
+    height: auto;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+}
+head {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+   
+}
+button{ 
+    padding: 5px;
+    border: none;
+}
+hr {
+    width: 580px;
+    align: left;
+    height: 20px;
+    border-width: 1px 0px 0px 0px ;
+    border-color: lightgrey;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    }
+  
+}
+body {
+    padding-top: 12px;
+    
+}
+div {
+    padding: 6.7px;
+}
+#buttons {
+    float:right;
+    margin-right: 90px;
+    font: 10px;
+    color: lightgray;
+}
+#buttons:hover{
+    color: aqua;
+}
+
+#name {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-left: 95px;
+    font-size: 20px;
+ }
+
+h1 {
+    color: #4aaaa5;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 25px;
+
+
+}
+#full {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    height: 420px;
+    clear: both;
+    overflow: auto;
+    padding: 10px;
+    border: solid;
+    border-color: #dddddd;
+    border-width: 20px 100px 80px 100px;
+    margin: -1px 2px 0px 2px;
+    
+}
+
+
+aside {
+    width: 165px;
+    height: 190px;
+    float: left;
+
+}
+main { 
+      height: 200px;
+   
+  }
+
+footer{
+    position: fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+    background-color:#494d50;
+    background-size: 10px;
+    text-align: center;
+    padding: 5px 60px 0px 60px;
+    font-size: 10px;
+    border: solid;
+    border-width: 4px 0px 0px 0px;
+    border-color: #4aaaa5;
+    margin:0;
+}
+
+#full2 {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    clear: both;
+    overflow: auto;
+    padding: 10px;
+    border: solid;
+    border-color: #dddddd;
+    border-width: 20px 100px 80px 100px;
+    margin: -1px 2px 0px 2px;
+
+}
+.name {
+    width: 330px;
+    height: 12px;
+    padding: 10px;
+    background-color:#ffffff;
+    font: 10px;
+    color: black ;
+}
+.email {
+    width: 330px;
+    height: 12px;
+    padding: 10px;
+    background-color: #ffffff
+    font: 10px;
+    color: black ;
+}
+.comment {
+    width: 330px;
+    height: 130px;
+    padding: 10px;
+    background-color: #ffffff;
+    font: 10px;
+    color: black ;
+}
+
+#submit {
+    background-color: #4aaaa5; /* Green */
+    border: none; 
+    color: white;
+    padding: 9px 15px;
+    margin-top: 5px;
+    text-align: center;
+    text-shadow: 0.7px 0.7px #31615e; 
+    display: inline-block;
+    font-size: 12px;
+    box-shadow: 1px 1px #486f6d;
+
+  }
+
+#submit:hover:{
+    background-color: #ffffff;
+}
+  
+.projects {
+    width: 100px;
+    height: 100px;
+}
+.website {
+    width: 100px;
+    height: 100px;
+}
+.games {
+    width: 10p0x;
+    height: 100x1px;
+}
+
+#test {
+    width: 130px;
+    height: 130px;
+}
+
