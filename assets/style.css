@@ -142,12 +142,13 @@ footer{
 }
 .comment {
     width: 330px;
-    height: 130px;
+    height: 120px;
     padding: 10px;
     background-color: #ffffff;
-    font: 10px;
+    font: 16px;
     color: #4aaaa5;
     font-family: 'EB Garamond', serif;
+    text-align: left;
 }
 
 #submit {
@@ -159,7 +160,7 @@ footer{
     text-align: center;
     text-shadow: 0.7px 0.7px #31615e; 
     display: inline-block;
-    font-size: 12px;
+    font-size: 16px;
     box-shadow: 1px 1px #486f6d;
     font-family: 'EB Garamond', serif;
 
