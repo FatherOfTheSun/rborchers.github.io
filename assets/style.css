@@ -1,16 +1,6 @@
-.WebContaier {
-    width:100%;
-    height: auto;
-}
 
-html{
-    width: 100%;
-    height: 100%;
-}
-
-}
 head {
-    background-color: white;
+    background-color:#7DFFF8;
     width: 100%;
     height: 100%;
    
@@ -18,13 +8,21 @@ head {
 button{ 
     padding: 5px;
     border: none;
+    font-family: 'EB Garamond', serif;
+}
+#about, #portfolio, #contact{
+    color: #4aaaa5;
+    font-family: 'EB Garamond', serif;
+}
+#about:hover, #portfolio:hover, #contact:hover{
+    color: #FCDAC7;
 }
 hr {
     width: 580px;
     align: left;
     height: 20px;
     border-width: 1px 0px 0px 0px ;
-    border-color: lightgrey;
+    border-color:  #ffffff;
     display: block;
     unicode-bidi: isolate;
     margin-block-start: 0em;
@@ -37,6 +35,8 @@ hr {
 }
 body {
     padding-top: 12px;
+    font-family: 'EB Garamond', serif;
+    
     
 }
 div {
@@ -46,33 +46,44 @@ div {
     float:right;
     margin-right: 90px;
     font: 10px;
-    color: lightgray;
+    color: #FCDAC7;
+    font: bold;
+    font-family: 'EB Garamond', serif;
+    
+    
 }
 #buttons:hover{
-    color: aqua;
+    color: #4aaaa5;
 }
 
 #name {
-    background-color: #4aaaa5;
-    color: white;
+    background-color: #dddddd;
+    color: #ffffff;
     padding: 5px;
     text-align: center;
     margin-left: 95px;
     font-size: 20px;
+    font-family: 'EB Garamond', serif;
  }
 
 h1 {
-    color: #4aaaa5;
+    color:#4aaaa5;
     margin-top: 0px;
     margin-bottom: 5px;
     font-size: 25px;
+    font-family: 'EB Garamond', serif;
 
 
+}
+form{
+    color: #4aaaa5;
+    font-family: 'Montserrat', sans-serif;
+ 
 }
 #full {
     box-sizing: border-box;
     background-color: #ffffff;
-    height: 420px;
+    height: 450px;
     clear: both;
     overflow: auto;
     padding: 10px;
@@ -86,12 +97,14 @@ h1 {
 
 aside {
     width: 165px;
-    height: 190px;
+    height: 200px;
     float: left;
 
 }
 main { 
       height: 200px;
+      font-family: 'Montserrat', sans-serif;
+      
    
   }
 
@@ -100,44 +113,32 @@ footer{
     bottom:0;
     left:0;
     width: 100%;
-    background-color:#494d50;
+    background-color: #dddddd;
     background-size: 10px;
     text-align: center;
-    padding: 5px 60px 0px 60px;
     font-size: 10px;
     border: solid;
     border-width: 4px 0px 0px 0px;
-    border-color: #4aaaa5;
-    margin:0;
-}
-
-#full2 {
-    box-sizing: border-box;
-    background-color: #ffffff;
-    clear: both;
-    overflow: auto;
-    padding: 10px;
-    border: solid;
-    border-color: #dddddd;
-    border-width: 20px 100px 80px 100px;
-    margin: -1px 2px 0px 2px;
-
+    border-color: #FCDAC7;
+    color: rgb(194, 143, 115);
 }
 .name {
     width: 330px;
     height: 12px;
     padding: 10px;
-    background-color:#ffffff;
+    background-color: #ffffff;
     font: 10px;
-    color: black ;
+    color: #4aaaa5;
+    font-family: 'EB Garamond', serif;
 }
 .email {
     width: 330px;
     height: 12px;
     padding: 10px;
-    background-color: #ffffff
+    background-color: #ffffff;
     font: 10px;
-    color: black ;
+    color: #4aaaa5;
+    font-family: 'EB Garamond', serif;
 }
 .comment {
     width: 330px;
@@ -145,13 +146,14 @@ footer{
     padding: 10px;
     background-color: #ffffff;
     font: 10px;
-    color: black ;
+    color: #4aaaa5;
+    font-family: 'EB Garamond', serif;
 }
 
 #submit {
     background-color: #4aaaa5; /* Green */
     border: none; 
-    color: white;
+    color:#ffffff;
     padding: 9px 15px;
     margin-top: 5px;
     text-align: center;
@@ -159,6 +161,7 @@ footer{
     display: inline-block;
     font-size: 12px;
     box-shadow: 1px 1px #486f6d;
+    font-family: 'EB Garamond', serif;
 
   }
 
@@ -166,21 +169,17 @@ footer{
     background-color: #ffffff;
 }
   
-.projects {
-    width: 100px;
-    height: 100px;
-}
-.website {
-    width: 100px;
-    height: 100px;
-}
-.games {
-    width: 10p0x;
-    height: 100x1px;
-}
-
 #test {
     width: 130px;
     height: 130px;
 }
+#projects {
+    background-color: #FCDAC7;
+}
+#games{
+    background-color: #FCDAC7;
 
+}
+#website{
+    background-color: #FCDAC7;
+}
